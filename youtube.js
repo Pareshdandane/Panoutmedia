@@ -94,7 +94,7 @@ const fetchData = async () => {
 		params: {
 			maxResults: 10,
 			playlistId: 'PLBDAPRBRK8W_BzmxfkWw2BaNVRFMz3tVD',
-			key: 'AIzaSyAm7mriJE6RdtsMtc65cOrPJYP_l1-rKvQ'
+			key: 'AIzaSyB_ueikf6E3NCuqRke8De_Gu6MeR5UKsnc'
 		}
 	});
 
