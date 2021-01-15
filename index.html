@@ -22,8 +22,9 @@
         <meta property= "twitter:image" content="/img/panoutmedia.jpg" class ="next-head"/>
         
         <link rel="stylesheet" href="styles.css"/>
-        <link rel="preload" href="/fonts/Aeroport-light.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
-        <link rel="preload" href="/fonts/Graphik-Light-Cy-Web.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+      <!--font-->
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet"> 
 
         <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" size="32x32" href="img/favicon/favicon-16x16.png"/>
@@ -34,37 +35,242 @@
         <meta name="application-name" content="Panoutmedia" />
         <meta name="msapplication-TileColor" content="#b91d47"/>
         <meta charSet="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial=scale=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+        
+        
+        
+        
     </head>
-
     <body>
-        <header class="navbar-header">
-
-               <div class="_13kU8">
-                   <h1 class="c_name">PANOUTMEDIA</h1>
-                <nav>
-                    <ul class="_2Jj67">
-                        <li>
-                            <a targetscroll="cases" class="nav-item">experience</a>
-                        </li>
-                        <li>
-                            <a targetscroll="clients" class="nav-item">about</a>
-                        </li>
-                        <li>
-                            <a targetscroll="howWeWork" class="nav-item">how we work</a>
-                        </li>
+      <header class="mobileShow" >
+        <nav class="navbar navbar-expand-lg sticky-top pt-2" style= "background-color: black;">
+            <div class="container"><img class="img-responsive" src="/img/panoutlogo.svg" width="200" height="40" padding-left ="50" alt= PANOUTMEDIA></a>
+                <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><img class="img-responsive" src="/img/icon/HamMenu.svg" width="30" height="30" alt= PANOUTMEDIA></button>
+                
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a href="#work2" class="nav-link font-weight-bold">Work <span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a href="#" class="nav-link font-weight-bold">About</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link font-weight-bold">Contact</a></li>
                     </ul>
-                </nav>
-               
+                </div>
             </div>
+        </nav>
+    </header>
+      
+    
+<div class="container-fluid">
+    <div class="row">
+          <div class="col-md-6 " style="background-color: black;">
+            <div class="mobileHide">
+                <div class="col-md-12 py-5 pl-5"> <img class="img-responsive" src="/img/panoutlogo.svg" width="200" height="40" padding-left ="50" alt= PANOUTMEDIA /></a></div>
+            </div>
+           
+            <div class="col-md-12 text-center py-5 mt-lg-5"><h1 class= "tagline text-center">We create, <br> You inspire</h1></div>
+
+          </div>
+          
+    <div class="col-md-6  ">
+        <div class="mobileHide">
+            
+            <div class= "col-md-12  py-5 center-block align">
+              <ul class="list-inline d-flex  justify-content-center">
+                <li class="list-inline-item active p-2 pr-5"><a href="#work" class="nav-link font-weight-bold">Work <span class="sr-only">(current)</span></a></li>
+                <li class="list-inline-item p-2 pr-5"><a href="#" class="nav-link font-weight-bold">About</a></li>
+                <li class="list-inline-item p-2 " style="background-color: black;"><a href="#contact" class="nav-link font-weight-bold text-white">Contact</a></li>
+              </ul>
+            </div>
+            
+            </div>
+             <div><video poster="" class="video" autoplay playsinline muted loop ><source src="/assest/WebGif.mp4" type="video/mp4"></video></div>
+         
+            
+         </div>
+    </div>
+        
+ </div>
+ 
+
+      <div class="pb-4 pb-lg-0" id ="work2"></div>
 
 
-        </header>
+
+
+ 
 
 
 
 
-    </body>
+     
+
+  <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>        
+                <!-- 16:9 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" id="video" allowfullscreen></iframe></div>
+              </div>
+            </div>
+          </div>
+        </div> 
+          
+</div><!---home colse-->
+
+<section id="work" > 
+<div class= "container-fluid workcontainer" >
+<div class="row mx-lg-5 mx-1" id ='youtubevideos'>
+  <div class = "col-sm-12"><h1 class="workheading mt-lg-4 mt-4 ml-0" >A selection of <br>our recent work</h1></div>
+  
+  
+  
+    
+  
 
 
-</html>
+ 
+</div>
+</section> 
+<!-- Footer -->
+<div class="footer" id="contact">
+  <div class="wrap w80 top-footer-wrapper">
+      <div class="footer-wrapper-element">
+          <div data-w-id="4d0704c1-aa69-76ad-23f5-7cc22a9232fe" data-animation-type="lottie" data-src="https://assets.website-files.com/5dcc4cad8cfd667007f46563/5dcc4cad8cfd667e9df465d3_Footer_IMG.json" data-loop="0" data-direction="1" data-autoplay="0" data-is-ix2-target="1" data-renderer="svg" data-default-duration="3" data-duration="0" class="lottie-animation-14">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
+                  <defs>
+                      <clipPath id="__lottie_element_158">
+                          <rect width="480" height="320" x="0" y="0"></rect>
+                      </clipPath>
+                      <filter id="__lottie_element_163" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+                          <feComponentTransfer in="SourceGraphic">
+                              <feFuncA type="table" tableValues="1.0 0.0"></feFuncA>
+                          </feComponentTransfer>
+                      </filter>
+                      <mask id="__lottie_element_162" mask-type="alpha">
+                          <g filter="url(#__lottie_element_163)">
+                              <rect width="480" height="320" x="0" y="0" fill="#ffffff" opacity="0"></rect>
+                              <g transform="matrix(1.3077232837677002,1.3077232837677002,-0.7071067690849304,0.7071067690849304,221.30123901367188,409.10211181640625)" opacity="1" style="display: block;">
+                                  <g opacity="1" transform="matrix(1,0,0,1,-99.8740005493164,-99.8740005493164)">
+                                      <path fill="rgb(255,255,255)" fill-opacity="1" d=" M80.1259994506836,-80.1259994506836 C80.1259994506836,-80.1259994506836 80.1259994506836,80.1259994506836 80.1259994506836,80.1259994506836 C80.1259994506836,80.1259994506836 -80.1259994506836,80.1259994506836 -80.1259994506836,80.1259994506836 C-80.1259994506836,80.1259994506836 -80.1259994506836,-80.1259994506836 -80.1259994506836,-80.1259994506836 C-80.1259994506836,-80.1259994506836 80.1259994506836,-80.1259994506836 80.1259994506836,-80.1259994506836z"></path>
+                                  </g>
+                              </g>
+                          </g>
+                      </mask>
+                      <mask id="__lottie_element_169" mask-type="alpha">
+                          <g transform="matrix(1,0,0,1,339.62298583984375,180)" opacity="1" style="display: block;">
+                              <g opacity="1" transform="matrix(1,0,0,1,-99.8740005493164,-99.8740005493164)">
+                                  <path fill="rgb(255,255,255)" fill-opacity="1" d=" M80.1259994506836,-80.1259994506836 C80.1259994506836,-80.1259994506836 80.1259994506836,80.1259994506836 80.1259994506836,80.1259994506836 C80.1259994506836,80.1259994506836 -80.1259994506836,80.1259994506836 -80.1259994506836,80.1259994506836 C-80.1259994506836,80.1259994506836 -80.1259994506836,-80.1259994506836 -80.1259994506836,-80.1259994506836 C-80.1259994506836,-80.1259994506836 80.1259994506836,-80.1259994506836 80.1259994506836,-80.1259994506836z"></path>
+                              </g>
+                          </g>
+                      </mask>
+                      <mask id="__lottie_element_172" mask-type="alpha">
+                          <g transform="matrix(1,0,0,1,339.62298583984375,180)" opacity="1" style="display: block;">
+                              <g opacity="1" transform="matrix(1,0,0,1,-99.8740005493164,-99.8740005493164)">
+                                  <path fill="rgb(255,255,255)" fill-opacity="1" d=" M80.1259994506836,-80.1259994506836 C80.1259994506836,-80.1259994506836 80.1259994506836,80.1259994506836 80.1259994506836,80.1259994506836 C80.1259994506836,80.1259994506836 -80.1259994506836,80.1259994506836 -80.1259994506836,80.1259994506836 C-80.1259994506836,80.1259994506836 -80.1259994506836,-80.1259994506836 -80.1259994506836,-80.1259994506836 C-80.1259994506836,-80.1259994506836 80.1259994506836,-80.1259994506836 80.1259994506836,-80.1259994506836z"></path>
+                              </g>
+                          </g>
+                      </mask>
+                      <mask id="__lottie_element_181" mask-type="alpha">
+                          <g transform="matrix(-1,0,0,-1,-19.369003295898438,-19.748001098632812)" opacity="1" style="display: block;">
+                              <g opacity="1" transform="matrix(1,0,0,1,-99.8740005493164,-99.8740005493164)">
+                                  <path fill="rgb(255,255,255)" fill-opacity="1" d=" M80.1259994506836,-80.1259994506836 C80.1259994506836,-80.1259994506836 80.1259994506836,80.1259994506836 80.1259994506836,80.1259994506836 C80.1259994506836,80.1259994506836 -80.1259994506836,80.1259994506836 -80.1259994506836,80.1259994506836 C-80.1259994506836,80.1259994506836 -80.1259994506836,-80.1259994506836 -80.1259994506836,-80.1259994506836 C-80.1259994506836,-80.1259994506836 80.1259994506836,-80.1259994506836 80.1259994506836,-80.1259994506836z"></path>
+                              </g>
+                          </g>
+                      </mask>
+                  </defs>
+                  <g clip-path="url(#__lottie_element_158)">
+                      <g mask="url(#__lottie_element_162)" style="display: block;">
+                          <g transform="matrix(1,0,0,1,180,339.74798583984375)" opacity="1">
+                              <g opacity="1" transform="matrix(1,0,0,1,-99.8740005493164,-99.8740005493164)">
+                                  <path fill="rgb(253,194,0)" fill-opacity="1" d=" M80.1259994506836,-80.1259994506836 C80.1259994506836,-80.1259994506836 80.1259994506836,80.1259994506836 80.1259994506836,80.1259994506836 C80.1259994506836,80.1259994506836 -80.1259994506836,80.1259994506836 -80.1259994506836,80.1259994506836 C-80.1259994506836,80.1259994506836 -80.1259994506836,-80.1259994506836 -80.1259994506836,-80.1259994506836 C-80.1259994506836,-80.1259994506836 80.1259994506836,-80.1259994506836 80.1259994506836,-80.1259994506836z"></path>
+                              </g>
+                          </g>
+                      </g>
+                      <g mask="url(#__lottie_element_169)" style="display: block;">
+                          <g transform="matrix(1,0,0,1,159.875,160)" opacity="1">
+                              <g opacity="1" transform="matrix(1,0,0,1,158.91299438476562,-80.01100158691406)">
+                                  <path fill="rgb(235,65,54)" fill-opacity="1" d=" M0,-79.989501953125 C44.14620590209961,-79.989501953125 79.989501953125,-44.14620590209961 79.989501953125,0 C79.989501953125,44.14620590209961 44.14620590209961,79.989501953125 0,79.989501953125 C-44.14620590209961,79.989501953125 -79.989501953125,44.14620590209961 -79.989501953125,0 C-79.989501953125,-44.14620590209961 -44.14620590209961,-79.989501953125 0,-79.989501953125z"></path>
+                              </g>
+                          </g>
+                      </g>
+                      <g mask="url(#__lottie_element_172)" style="display: block;">
+                          <g transform="matrix(1,0,0,1,159.875,160)" opacity="1">
+                              <g opacity="1" transform="matrix(1,0,0,1,-1.031999945640564,-80.01100158691406)">
+                                  <path fill="rgb(93,30,100)" fill-opacity="1" d=" M0,-79.989501953125 C44.14620590209961,-79.989501953125 79.989501953125,-44.14620590209961 79.989501953125,0 C79.989501953125,44.14620590209961 44.14620590209961,79.989501953125 0,79.989501953125 C-44.14620590209961,79.989501953125 -79.989501953125,44.14620590209961 -79.989501953125,0 C-79.989501953125,-44.14620590209961 -44.14620590209961,-79.989501953125 0,-79.989501953125z"></path>
+                              </g>
+                          </g>
+                      </g>
+                      <g mask="url(#__lottie_element_181)" style="display: none;">
+                          <g transform="matrix(-1,-0.00019525243260432035,0.00019525243260432035,-1,240.39463806152344,160.25091552734375)" opacity="1">
+                              <g opacity="1" transform="matrix(1,0,0,1,-1.031999945640564,-80.01100158691406)">
+                                  <path fill="rgb(93,30,100)" fill-opacity="1" d=" M0,-79.989501953125 C44.14620590209961,-79.989501953125 79.989501953125,-44.14620590209961 79.989501953125,0 C79.989501953125,44.14620590209961 44.14620590209961,79.989501953125 0,79.989501953125 C-44.14620590209961,79.989501953125 -79.989501953125,44.14620590209961 -79.989501953125,0 C-79.989501953125,-44.14620590209961 -44.14620590209961,-79.989501953125 0,-79.989501953125z"></path>
+                              </g>
+                          </g>
+                      </g>
+                      <g transform="matrix(1,0,0,1,240,160)" opacity="1" style="display: none;"></g>
+                  </g>
+              </svg>
+          </div>
+      </div>
+      <div class="footer-wrapper" >
+          <div class="_6-col">
+              <h4 class="h4">let's work together<br><a href="mailto:panoutmedia@gmail.com" class="link-light-large">panout@gmail.com</a></h4></div>
+          <div class="_6-col _6-col-last right">
+              <div class="social-list">
+                  <a href="https://www.instagram.com/panout_media" target="_blank" rel="noopener noreferrer" class="social-link instagram w-inline-block"></a>
+                  <a href="https://www.facebook.com/panoutmedia/" target="_blank" rel="noopener noreferrer" class="social-link facebook w-inline-block"></a>
+                  <a href="https://twitter.com/panout_media" target="_blank" rel="noopener noreferrer" class="social-link  twitter  w-inline-block"></a>
+                  <a href="https://www.linkedin.com/company/panoutmedia" rel="noopener noreferrer" target="_blank" class="social-link social-link-last linkdin  w-inline-block"></a>
+
+              </div>
+          </div>
+      </div>
+  </div>
+ 
+</div>
+<div class="mobileShow" style="width:100%">
+    <div>
+        <a href="https://api.whatsapp.com/send?phone=918408814895?text=Hey!%20Can%20you%20help%20me%20with" target="_blank" rel="noopener noreferrer">
+        <div class="lc-g3mdq6">
+            <div class="lc-rchvvg ">
+                <div dir="ltr" class="lc-120yqim "></div>
+            </div>
+            <div class="lc-48gfx5 ">
+                <div dir="ltr" class="lc-120yqim ">
+                    <div class="lc-r2e1dd ">
+                        <button class="lc-196zu1i ">
+                            <div aria-hidden="true" class="lc-wjp5cm ">
+                                <img src ="/img/Whatsappicon.svg" width =40>
+                                <div class="lc-e7lz12"></div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+    </div>
+</div>
+
+</body>
+<script type="text/javascript">
+  var jQuery_3_1_1 = $.noConflict(true);
+  </script>
+
+<script type="text/javascript" src="youtube.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
+    </html>
+        
